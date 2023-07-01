@@ -1,0 +1,85 @@
+.grid-section {
+  width: 100%;
+  background-color: orange;
+  margin: 10px;
+  padding: 7px;
+}
+
+.grid-section div {
+  border: black solid 1px;
+}
+
+.grid-section.example-1 {
+  display: grid;
+  grid-template-columns: 95px 1fr;
+}
+
+.grid-section.example-2 {
+  display: grid;
+  grid-template-rows: 90px 300px 1fr;
+  grid-template-columns: auto auto auto auto;
+}
+
+.grid-section.example-3 {
+  display: grid;
+  justify-content: start;
+  grid-template-columns: repeat(4, 40px);
+  background-color: orange;
+  margin: 10px;
+}
+
+.grid-section.example-4 {
+  display: grid;
+  justify-content: end;
+  grid-template-columns: repeat(4, 40px);
+  background-color: orange;
+  margin: 10px;
+}
+
+.grid-section.example-5 {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(4, 40px);
+  background-color: orange;
+  margin: 10px;
+}
+
+.grid-section.example-6 {
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: repeat(4, 40px);
+  background-color: orange;
+  margin: 10px;
+}
+
+.grid-section.example-7 {
+  display: grid;
+  justify-items: stretch;
+  grid-template-columns: 1fr 1fr;
+  background-color: orange;
+  margin: 10px;
+}
+
+.grid-section.example-8 {
+  display: grid;
+  justify-items: start;
+  grid-template-columns: 1fr 1fr;
+  background-color: orange;
+  margin: 10px;
+}
+
+.grid-section.example-9 {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+  background-color: orange;
+  margin: 10px;
+}
+
+.grid-section.example-10 {
+  display: grid;
+  justify-items: end;
+  grid-template-columns: 1fr 1fr;
+  background-color: orange;
+  margin: 10px;
+}

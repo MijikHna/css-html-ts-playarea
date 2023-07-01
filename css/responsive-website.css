@@ -1,0 +1,57 @@
+/* Example 1 */
+.wrapper-responsive-website-1 {
+  width:100%;
+  min-height: 500px;
+  display:flex;
+}
+
+.main-responsive-website-1 {
+  width:80%;
+  background:blue;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aside-responsive-website-1 {
+  background:red;
+  width:20%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Exmaple 2 */
+.wrapper-responsive-website-2 > div {
+  display:flex;
+  min-height: 500px;
+  justify-content: center;
+  align-items: center;
+} 
+
+.main-responsive-website-2 {
+  /* width:100%; */
+  min-height:500px;
+  background:blue;
+}
+
+.aside-responsive-website-2{
+  /* height:100px; */
+  background:red;
+  width:100%;
+}
+
+@media (min-width:600px) {
+  .wrapper-responsive-website-2{
+    width:100%;
+    display:flex;
+  }
+
+  .main-responsive-website-2 {
+    width:80%;
+  }
+
+  .aside-responsive-website-2{
+    width:20%;
+  }
+}

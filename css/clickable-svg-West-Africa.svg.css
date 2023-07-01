@@ -1,0 +1,6 @@
+.img-size {
+  max-height: 650px;
+  min-height: 650px;
+  display: inline-block;
+}
+

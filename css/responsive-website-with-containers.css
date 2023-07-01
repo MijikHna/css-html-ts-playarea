@@ -1,0 +1,21 @@
+.drink-card-container {
+  container-type: inline-size; /* say browser that browser should keep track of the inline-size property of the class drink-card-container */
+}
+
+/* further syntax @container <container-condition> { <stylesheet> } */
+@container (max-width: 450px) {
+  .drink-card-container .drink-card {
+    flex-direction: column;
+  }
+}
+
+.info {
+  container-type: inline-size;
+  container-name: drink-info; /* gives container a name which will be used in @contaienr */
+}
+
+@container drink-info (max-width: 200px) {
+  .info p {
+    display: none;
+  }
+}

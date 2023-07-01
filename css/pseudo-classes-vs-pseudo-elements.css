@@ -1,0 +1,19 @@
+/* Pseudo class have ":" */
+a.pseudo-class:hover {
+  color: blue;
+}
+
+/**
+ * some fancy pseudo classes:
+ * :is()
+ * :not()
+ * :where()
+ * :has()
+ */
+
+/* Pseudo eleemnts have "::" */
+
+p.pseudo-elem::first-letter {
+  font-size: 9em;
+}
+

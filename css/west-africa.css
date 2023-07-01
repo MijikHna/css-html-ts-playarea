@@ -1,0 +1,47 @@
+/* SVG Style */ 
+#mapsection {
+  width: 50% !important;
+  height: auto !important;
+  fill: #ccc !important;
+  stroke: #333 !important;
+  stroke-width: 2 !important;
+}
+
+#Mali {
+  fill: brown !important;
+}
+
+#Benin {
+  fill: #00baba !important;
+}
+
+#Nigeria {
+  fill: yellow !important;
+}
+
+#Zimbabwe {
+  fill: brown !important;
+}
+
+#Zambia {
+  fill: green !important;
+}
+
+#Somalia {
+  fill: darkseagreen !important;
+}
+
+#Mali {
+  fill: gray !important;
+}
+
+path {
+  fill: #1da1f2 !important;
+}
+
+path:hover {
+  fill: purple !important;
+  stroke: red !important;
+  stroke-width: 3px !important;
+  transition: fill 0.4s !important;
+}

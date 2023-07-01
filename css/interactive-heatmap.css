@@ -1,0 +1,5 @@
+.heatmap-container {
+  min-height: 600px;
+  width: 100%;
+  display: grid; 
+}

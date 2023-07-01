@@ -1,0 +1,79 @@
+:root {
+  --nav-height: 60px;
+  --footer-height: 70px;
+  --main-y-margin: 5px;
+  --row-margin: 10px;
+  --row-border: 1px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+#body-wrapper > main {
+  display: flex; 
+  margin: var(--main-y-margin) 0;
+  min-height: calc(100vh - var(--nav-height) - var(--footer-height) - var(--row-margin));
+  background-color: #666;
+}
+
+#main-wrapper {
+  display: flex;
+  margin: auto;
+  width: 100vw;
+}
+
+#body-wrapper > nav {
+  min-height: var(--nav-height);
+  background-color: #444;
+}
+
+footer {
+  min-height: var(--footer-height);
+  background-color: #AAA;
+}
+
+.nav-title {
+  font: 1.5em bold;
+  color: gray;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  padding: 10px 0;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  border: var(--row-border) solid black;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  margin: var(--row-margin);
+  box-sizing: border-box;
+}
+
+.col {
+  box-sizing: border-box;
+  flex: 1 0 0%;
+  text-align: center;
+  margin: 10px
+}
+
+.the-button {
+  background-color: blue;
+  vertical-align: middle;
+  display: inline-block;
+  color: white;
+  min-width: 100px;
+  padding: 50px 5px;
+}
